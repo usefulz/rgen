@@ -22,7 +22,7 @@ Regular expression password list generator
 ## Usage
 
 ```
-> usage: rgen.py <-r 'REGEX'> [-f|--forever] [--numpasses <n>] [-o|--output] <[filename|-]> [-h|--help]
+> usage: rgen.py <-r 'REGEX'> [-f|--forever] [--numpasses <n>] [-o|--output <filename|->] [-h|--help]
 >  -h, --help            show this help message and exit
 >  -r REGEX, --regex REGEX              - Regular expression in single quotes
 >  -f, --forever                        - Run until Control-C is pressed
