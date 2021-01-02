@@ -33,7 +33,7 @@ Regular expression password list generator
 ## Example
 
 ```
-python3.7 rgen.py -r 'abc[def]123' -f -o -
+python3.8 rgen.py -r 'abc[def]123' -f -o -
 ```
 
 Generates the following output:
