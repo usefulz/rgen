@@ -17,6 +17,7 @@ Regular expression password list generator
 * os
 * re
 * rstr
+* pathlib
 
 ## Usage
 
