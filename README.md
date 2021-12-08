@@ -14,6 +14,8 @@ Regular expression password list generator
 * argparse
 * signal
 * sys
+* logging
+* time
 * os
 * re
 * rstr
@@ -28,6 +30,7 @@ Regular expression password list generator
 >  -f, --forever                        - Run until Control-C is pressed
 >  -n NUMPASSES, --numpasses NUMPASSES  - Number of passwords to generate (>0 disables -f, 0 enables -f)
 >  -o OUTPUT, --output OUTPUT           - Output file path. '-' prints to stdout
+>  -d                                   - Enable Debug Logging
 ```
 
 ## Example
@@ -49,3 +52,4 @@ abcf123
 
 * Python 2.7
 * Python 3.8
+* Python 3.9
